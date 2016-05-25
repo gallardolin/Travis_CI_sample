@@ -11,6 +11,10 @@ notifications:
     on_success: always
     on_failure: always
 
+# command to install dependencies
+install:
+  - "pip install -r test-requirements.txt"
+
 script: 
-  - python setup.py nosetests --tests tests/unit
+  - python setup.py nosetests --tests test/unit_test
   - flake8
