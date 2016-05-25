@@ -4,7 +4,6 @@
 from __future__ import unicode_literals
 
 import unittest
-import mock
 
 from CI_sample import CI_sample
 

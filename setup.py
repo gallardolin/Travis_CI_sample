@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-import CI_sample
+# import CI_sample
 
 setup(
     name='ci',
