@@ -1,0 +1,3 @@
+[console_scripts]
+CI_sample = CI_sample.CI_sample:cisample
+
