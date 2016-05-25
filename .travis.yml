@@ -16,5 +16,5 @@ install:
   - "pip install -r test-requirements.txt"
 
 script: 
-  - python setup.py nosetests --tests test/unit_test
+  - python setup.py test
   - flake8

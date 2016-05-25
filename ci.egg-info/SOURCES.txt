@@ -1,3 +1,4 @@
+setup.cfg
 setup.py
 CI_sample/CI_sample.py
 CI_sample/__init__.py
