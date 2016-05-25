@@ -1,20 +1,16 @@
+language: python
 
-variables:
-  GIT_SSL_NO_VERIFY: "1"
+python:
+  - 2.7
+  - 3.5
 
-before_script:
-  - python --version
+notifications:
+  email:
+    recipients:
+      - gallardolin@gmail.com
+    on_success: always
+    on_failure: always
 
-py2.7:
-  tags:
-  - python-2.7
-  script:
-  - python setup.py nosetests --tests tests/unit
-  - flake8
-
-py3.5:
-  tags:
-  - python-3.5
-  script:
+script: 
   - python setup.py nosetests --tests tests/unit
   - flake8
